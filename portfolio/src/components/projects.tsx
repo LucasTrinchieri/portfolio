@@ -2,12 +2,9 @@ import '../styles/projects.css'
 
 import { projects } from "../configs/projects"
 import { FRASES, TITLES } from '../const/const'
+import { handleAnchorClick, handleButtonClick } from '../utils/utils'
 
 export default function Projects(){
-  const handleOnClick = () => {
-    console.log('click')
-  }
-
   return (
     <>
       <h1 className="section-title">{TITLES.PROJECTS.ES}</h1>
@@ -18,7 +15,7 @@ export default function Projects(){
               <button 
                 className="project"
                 key={index}
-                onClick={handleOnClick}
+                onClick={() => handleButtonClick(project.links.web)}
               >
                 <img className="image" src={project.links.img} alt={project.name} />
                 <h1 className="name">{project.name}</h1>
@@ -34,7 +31,9 @@ export default function Projects(){
                     })
                   }
                 </section>
-                <a className="github" href={project.links.github}>{FRASES.ANCHOR.ES}</a>
+                <a className="github" href={project.links.github} onClick={handleAnchorClick}>
+                  {FRASES.ANCHOR.ES}
+                </a>
               </button>
             )
           })
