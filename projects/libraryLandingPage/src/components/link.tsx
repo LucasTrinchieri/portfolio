@@ -1,7 +1,6 @@
 import { EVENTS } from "../const/const"
 import { LinkProps } from "../types/types"
 
-
 export function navigate (href: string, state: any = {}) {
   window.history.pushState(state, '', href)
   const navigationEvent = new Event(EVENTS.PUSHSTATE)
