@@ -1,0 +1,27 @@
+.skills {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+
+.skill {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  > .icon {
+    width: 50px;
+  }
+}
+
+.soft-skills {
+  display: grid;
+  grid-template-columns: repeat(2, 400px);
+  gap: 20px 0px;
+  
+  > .skill {
+    text-align: center;
+  }
+}

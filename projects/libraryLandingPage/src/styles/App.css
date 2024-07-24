@@ -1,0 +1,147 @@
+.book-section{
+  display: grid;
+  grid-template-columns: repeat(5, 200px);
+  padding: 1em;
+  gap: 5px;
+  justify-content: center;
+}
+
+.book-section .no-results {
+  color: #242424;
+}
+
+.book {
+  border: none;
+  border-radius: 0;
+  display: inline-block;
+  padding: 0;
+  width: 200px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.book .img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+}
+
+.filters .list{
+  background-color: burlywood;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  list-style-type: none;
+  padding: 1em;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.filters .item {
+  background-color: white;
+  padding: 0.6em 1.2em;
+  border: 1px solid #242424;
+  border-radius: 8px;
+  font-family: inherit;
+  color: #242424;
+  transition: border-color 0.25s;
+}
+
+.filters .item:hover {
+  border-color: #646cff;
+}
+
+.book-details {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+}
+
+.book-details .info {
+  color: #242424;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 500px;
+
+  > .descripcion {
+    text-align: start;
+    max-width: 500px;
+  } &
+  > .title {
+    margin: 0;
+  }
+}
+
+.book-details .img {
+  width: 400px;
+  height: auto;
+}
+
+.navbar {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1em;
+}
+
+.navbar .icon {
+  color: #242424;
+  justify-content: flex-start;
+}
+
+.navbar .icon:hover {
+  color: #24242490;
+}
+
+.navbar .name {
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 40px;
+  color: #242424;
+}
+
+.banner {
+  width: 100%;
+}
+
+.footer {
+  background-color: burlywood;
+  font-weight: 700;
+  font-size: 30px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  > .message {
+    margin: 0;
+  } &
+  > .author {
+    margin:  0;
+    font-size: 15px;
+    font-weight: 400;
+  } 
+}
+
+.navbutton {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+  gap: 10px;
+}

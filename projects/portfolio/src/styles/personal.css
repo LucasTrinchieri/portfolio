@@ -1,0 +1,48 @@
+.personal {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 10px;
+  height: 70vh;
+}
+
+.personal .info {
+  align-content: end;
+
+  > .title {
+    margin: 0;
+    font-size: 70px;
+    color: #fdbf86;
+  } &
+  > .rol {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+  } &
+  > .summary {
+    font-size: 15px;
+    margin: 0;
+  }
+}
+
+.btn-icon {
+  width: 30px;
+  margin-right: 10px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 0px 2px;
+  transition: border-color 0.25s;
+}
+
+.btn-icon:hover {
+  border-color: white;
+}
+
+.personal .ph {
+  align-content: end;
+  justify-self: center;
+  overflow: hidden;
+
+  > .photo {
+    height: 300px;
+  }
+}

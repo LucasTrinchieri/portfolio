@@ -1,0 +1,44 @@
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 400px);
+  gap: 10px;
+  place-content: center;
+}
+
+.projects .project {
+  background-color: transparent;
+  font-family: inherit;
+  border: 1px solid transparent;
+  cursor: pointer;
+
+  > .name {
+    font-size: 30px;
+  } &
+  > .description {
+    font-size: 20px;
+    text-align: center;
+    min-height: 50px;
+  } &
+  > .github {
+    text-decoration: none;
+  } &
+  > .image {
+    width: 350px;
+  }
+}
+
+.technologies {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  justify-content: center;
+  margin-bottom: 10px;
+
+  > .tech {
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 4px;
+  }
+}
