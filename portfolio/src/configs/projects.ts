@@ -2,7 +2,7 @@ export const projects = [
   {
     name: 'Library Landing Page',
     links: {
-      web: 'https://portfolio-3f3b.vercel.app/',
+      web: 'https://lukidev-library-landing-page.vercel.app/',
       github: 'https://github.com/LucasTrinchieri/portfolio/tree/main/projects/libraryLandingPage',
       img: './libreria-landing-page.png'
     },
@@ -18,7 +18,7 @@ export const projects = [
   {
     name: 'Tic Tac Toe',
     links: {
-      web: 'https://tic-tac-toe-pink-phi-82.vercel.app/',
+      web: 'https://lukidev-tic-tac-toe.vercel.app/',
       github: 'https://github.com/LucasTrinchieri/portfolio/tree/main/projects/tic-tac-toe',
       img: './tic-tac-toe.png'
     },
