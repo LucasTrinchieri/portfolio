@@ -2,8 +2,8 @@ export const projects = [
   {
     name: 'Library Landing Page',
     links: {
-      web: '',
-      github: '',
+      web: 'https://portfolio-3f3b.vercel.app/',
+      github: 'https://github.com/LucasTrinchieri/portfolio/tree/main/projects/libraryLandingPage',
       img: './libreria-landing-page.png'
     },
     description: {
@@ -18,8 +18,8 @@ export const projects = [
   {
     name: 'Tic Tac Toe',
     links: {
-      web: '#',
-      github: '',
+      web: 'https://tic-tac-toe-pink-phi-82.vercel.app/',
+      github: 'https://github.com/LucasTrinchieri/portfolio/tree/main/projects/tic-tac-toe',
       img: './tic-tac-toe.png'
     },
     description: {
