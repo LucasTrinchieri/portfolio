@@ -39,9 +39,14 @@
   padding: 10px;
   border-radius: 10px;
 
-  > .title {
+  > .header .title {
     color: black;
     font-weight: bold;
+    font-size: 40px;
+  } &
+
+  > .description {
+    color: black;
   }
 
 }
