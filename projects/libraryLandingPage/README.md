@@ -1,30 +1,39 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Table of Contents / Índice
 
-Currently, two official plugins are available:
+- [English/Inlgés](#library-landing-page)
+- [Spanish/Español](#landing-page-biblioteca)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Labrary landing page
 
-## Expanding the ESLint configuration
+This project simulates a landing page for a library. Users can view all books and filter by name, author, series, and/or category. Clicking on a book directs to its description page with more detailed information about the book.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Technologies Used
 
-- Configure the top-level `parserOptions` property like this:
+- **React**: JavaScript library for building user interfaces.
+- **TypeScript**: Typed programming language that integrates with JavaScript.
+- **Vite**: Fast development tool for modern web applications.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Access the Page
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+The page is deployed and can be accessed through the following links:
+
+- **From my Portfolio**: [lukidev-portfolio.vercel.app](https://lukidev-portfolio.vercel.app/)
+- **Direct URL**: [lukidev-library-landing-page.vercel.app](https://lukidev-library-landing-page.vercel.app/)
+
+## Landing page biblioteca
+
+Este proyecto simula una página de aterrizaje de una librería. Los usuarios pueden ver todos los libros y filtrar por nombre, autor, serie y/o categoría. Al hacer clic en un libro, se accede a su página de descripción con información más detallada sobre el libro.
+
+### Tecnologías Utilizadas
+
+- **React**: Biblioteca de JavaScript para construir interfaces de usuario.
+- **TypeScript**: Lenguaje de programación tipado que se integra con JavaScript.
+- **Vite**: Herramienta de desarrollo rápido para aplicaciones web modernas.
+
+### Acceso a la Página
+
+La página está deployada y puede ser accedida a través de los siguientes enlaces:
+
+- **Desde mi Portfolio**: [lukidev-portfolio.vercel.app](https://lukidev-portfolio.vercel.app/)
+- **URL Directa**: [lukidev-library-landing-page.vercel.app](https://lukidev-library-landing-page.vercel.app/)
