@@ -1,30 +1,35 @@
-# React + TypeScript + Vite
+## Language/Lenguaje
+- [English/Inglés](#tic-tac-toe)
+- [Spanish/Español](#ta-te-ti)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tic Tac Toe
 
-Currently, two official plugins are available:
+This project is a recreation of the Tic Tac Toe game using React, TypeScript, and Vite. It allows users to play the classic three-in-a-row game directly in the browser.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Technologies Used**
 
-## Expanding the ESLint configuration
+- React: JavaScript library for building user interfaces.
+- TypeScript: Typed programming language that integrates with JavaScript.
+- Vite: Fast development tool for modern web applications.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+**Access the Game:** The game is deployed and can be accessed through the following links:
 
-- Configure the top-level `parserOptions` property like this:
+- From my Portfolio: [lukidev-portfolio.vercel.app](https://lukidev-portfolio.vercel.app/)
+- Direct URL: [lukidev-tic-tac-toe.vercel.app](https://lukidev-tic-tac-toe.vercel.app/)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Ta Te Ti
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Este proyecto es una recreación del juego de Ta-Te-Ti (Tic Tac Toe) utilizando React, TypeScript y Vite. Permite a los usuarios jugar el clásico juego de tres en raya directamente en el navegador.
+
+**Tecnologías Utilizadas**
+
+- React: Biblioteca de JavaScript para construir interfaces de usuario.
+- TypeScript: Lenguaje de programación tipado que se integra con JavaScript.
+- Vite: Herramienta de desarrollo rápido para aplicaciones web modernas.
+
+**Acceso al Juego**:
+El juego está deployado y puede ser accedido a través de los siguientes enlaces:
+
+- Desde mi Portfolio: [lukidev-portfolio.vercel.app](https://lukidev-portfolio.vercel.app/)
+- URL Directa: [lukidev-tic-tac-toe.vercel.app](https://lukidev-tic-tac-toe.vercel.app/)
+
