@@ -8,9 +8,9 @@ This project is a recreation of the Tic Tac Toe game using React, TypeScript, an
 
 **Technologies Used**
 
-- React: JavaScript library for building user interfaces.
-- TypeScript: Typed programming language that integrates with JavaScript.
-- Vite: Fast development tool for modern web applications.
+- **React**: JavaScript library for building user interfaces.
+- **TypeScript**: Typed programming language that integrates with JavaScript.
+- **Vite**: Fast development tool for modern web applications.
 
 **Access the Game:** The game is deployed and can be accessed through the following links:
 
@@ -23,12 +23,11 @@ Este proyecto es una recreación del juego de Ta-Te-Ti (Tic Tac Toe) utilizando 
 
 **Tecnologías Utilizadas**
 
-- React: Biblioteca de JavaScript para construir interfaces de usuario.
-- TypeScript: Lenguaje de programación tipado que se integra con JavaScript.
-- Vite: Herramienta de desarrollo rápido para aplicaciones web modernas.
+- **React**: Biblioteca de JavaScript para construir interfaces de usuario.
+- **TypeScript**: Lenguaje de programación tipado que se integra con JavaScript.
+- **Vite**: Herramienta de desarrollo rápido para aplicaciones web modernas.
 
-**Acceso al Juego**:
-El juego está deployado y puede ser accedido a través de los siguientes enlaces:
+**Acceso al Juego**: El juego está deployado y puede ser accedido a través de los siguientes enlaces:
 
 - Desde mi Portfolio: [lukidev-portfolio.vercel.app](https://lukidev-portfolio.vercel.app/)
 - URL Directa: [lukidev-tic-tac-toe.vercel.app](https://lukidev-tic-tac-toe.vercel.app/)
