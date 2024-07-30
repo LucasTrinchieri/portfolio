@@ -51,7 +51,7 @@ export const ABOUT = {
       alt: 'github icon'
     },
     linkedin: {
-      href: 'https://www.linkedin.com/in/lucas-trinchieri-44a62a262/',
+      href: 'https://www.linkedin.com/in/lucastrinchieri/',
       icon: './svg/linkedin.svg',
       alt: 'linkedin icon'
     }
