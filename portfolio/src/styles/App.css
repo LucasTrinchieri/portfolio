@@ -3,22 +3,8 @@
 @import "@fontsource/montserrat/700.css";
 
 html {
+  /* Why? just because */
   font-size: 62.5%;
-}
-
-:root {
-  font-family: Montserrat, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: rgb(15, 15, 32);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 #root {
@@ -32,6 +18,8 @@ body {
   min-width: 400px;
   min-height: 100vh;
   justify-content: center;
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
 
 .section-title {
@@ -53,6 +41,6 @@ body {
   } &
   > .contact{
     margin: 0;
-    color: rgba(255, 255, 255, 0.50);
+    color: var(--contact-color);
   }
 }
