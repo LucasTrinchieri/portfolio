@@ -11,7 +11,7 @@
   > .title {
     margin: 0;
     font-size: 70px;
-    color: #fdbf86;
+    color: var(--title-color);
   } &
   > .rol {
     margin: 0;
@@ -44,5 +44,9 @@
 
   > .photo {
     height: 300px;
+    mask-image: linear-gradient(
+      var(--bg-color) 80%,
+      transparent
+    );
   }
 }
